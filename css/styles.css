@@ -1,13 +1,22 @@
 @font-face {
 	font-family: "Source Code Pro";
-	src: url("./fonts/SourceCodePro-Regular.ttf.woff2") format('woff2');
+	src: url("./fonts/SourceCodePro-Semibold.ttf.woff2") format('woff2');
+}
+@font-face {
+	font-family: "Source Code Pro Black";
+	src: url("./fonts/SourceCodePro-Black.ttf.woff2") format('woff2');
 }
 
 body {
 	background: #1C1E27;
 	color: #CACACC;
 	font-family: "Source Code Pro";
-	letter-spacing: -1px;
+	letter-spacing: -0.1rem;
+	font-size: 1.1rem;
+}
 
+h1 {
+	color: #00A5AF;
+	font-family: "Source Code Pro";
 }
 
