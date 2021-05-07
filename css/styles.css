@@ -23,30 +23,57 @@ header {
 	text-decoration: none;
 }
 
-a {
-	color: inherit;
-	text-decoration: inherit;
+a:link {
+	color: #00A5AF;
 }
+
 
 .logo {
 	font-family: "Source Code Pro Black";
+	text-decoration: none;
+}
+
+.logo div{
 	white-space: pre;
+	color: #24E39D;
 }
 
 pre {
 	font-family: "Source Code Pro Black";
 }
 
+.navbar {
+	padding: 0;
+	margin: 20px 0;
+	display: block;
+	list-style-type: none;
+} 
+
+.navbar li {
+	display: inline-block;
+}
+
+.navbar a {
+	display: inline-block;
+	padding: 14px 16px;
+}
+
 h1 {
-	color: #00A5AF;
+	text-align: center;
+	color: #E4436F;
 	font-family: "Source Code Pro";
 }
 
 h2 { 
+	color: #00A5AF;
+}
+
+h3 { 
 	color: #EDA685;
 }
 
 code {
+	font-family: "Source Code Pro";
 	word-wrap: break-word;
 	color: #24E39D;
 }
