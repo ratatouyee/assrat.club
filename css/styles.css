@@ -13,10 +13,41 @@ body {
 	font-family: "Source Code Pro";
 	letter-spacing: -0.1rem;
 	font-size: 1.1rem;
+	max-width: 700px;
+	margin: auto;
+	padding: 40px 20px;
+}
+
+header {
+	color: #24e39d;
+	text-decoration: none;
+}
+
+a {
+	color: inherit;
+	text-decoration: inherit;
+}
+
+.logo {
+	font-family: "Source Code Pro Black";
+	white-space: pre;
+}
+
+pre {
+	font-family: "Source Code Pro Black";
 }
 
 h1 {
 	color: #00A5AF;
 	font-family: "Source Code Pro";
+}
+
+h2 { 
+	color: #EDA685;
+}
+
+code {
+	word-wrap: break-word;
+	color: #24E39D;
 }
 
